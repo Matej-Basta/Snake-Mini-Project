@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    background-color: black;
+    color: #8DA259;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 15vh;
+    word-spacing: 9999rem;
+    text-align: center;
+}
+
+.background {
+    background-color: black;
+    min-width: 100vw;
+    min-height: 70vh;
+}
+
+.footer {
+    background-color: pink;
+    height: 15vh;
+}
