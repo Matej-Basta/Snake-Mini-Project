@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.header {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: black;
+}
+
+.header {
     color: #8DA259;
     display: flex;
     justify-content: center;
@@ -12,15 +21,31 @@
     height: 15vh;
     word-spacing: 9999rem;
     text-align: center;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .background {
-    background-color: black;
-    min-width: 100vw;
-    min-height: 70vh;
+    background-color: pink;
+    width: 100vw;
+    height: 70vh;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .footer {
-    background-color: pink;
     height: 15vh;
+    color: #8DA259;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.icons-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
 }
